@@ -32,7 +32,7 @@ export function TopNavBar({ activeSection = 'home', screenSize = 'desktop' }: To
       icon: Linkedin,
       label: 'LinkedIn',
       action: () => {
-        window.open('https://linkedin.com/in/prathikp', '_blank')
+        window.open('https://linkedin.com/in/patansahilkhan', '_blank')
         setIsShareOpen(false)
       }
     },
@@ -40,7 +40,7 @@ export function TopNavBar({ activeSection = 'home', screenSize = 'desktop' }: To
       icon: Github,
       label: 'GitHub',
       action: () => {
-        window.open('https://github.com/prathikp', '_blank')
+        window.open('https://github.com/patansahilkhan', '_blank')
         setIsShareOpen(false)
       }
     },
@@ -50,7 +50,7 @@ export function TopNavBar({ activeSection = 'home', screenSize = 'desktop' }: To
       action: () => {
         if (navigator.share) {
           navigator.share({
-            title: 'Prathik P - Frontend Developer',
+            title: 'Patan Sahil Khan - Frontend Developer',
             text: 'Check out this amazing portfolio!',
             url: window.location.href,
           })

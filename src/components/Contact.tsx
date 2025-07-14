@@ -35,8 +35,8 @@ export function Contact() {
     {
       icon: Mail,
       label: 'Email',
-      value: 'prathik.p@example.com',
-      href: 'mailto:prathik.p@example.com'
+      value: 'patan.sahil.khan@example.com',
+      href: 'mailto:patan.sahil.khan@example.com'
     },
     {
       icon: Phone,
@@ -56,19 +56,19 @@ export function Contact() {
     {
       icon: Linkedin,
       label: 'LinkedIn',
-      href: 'https://linkedin.com/in/prathikp',
+      href: 'https://linkedin.com/in/patansahilkhan',
       color: 'text-blue-600'
     },
     {
       icon: Github,
       label: 'GitHub',
-      href: 'https://github.com/prathikp',
+      href: 'https://github.com/patansahilkhan',
       color: 'text-gray-800'
     },
     {
       icon: Twitter,
       label: 'Twitter',
-      href: 'https://twitter.com/prathikp',
+      href: 'https://twitter.com/patansahilkhan',
       color: 'text-blue-400'
     }
   ]

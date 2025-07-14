@@ -4,7 +4,7 @@ import React, { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Button } from './ui/button'
 import { Share2, Copy, Mail, MessageSquare } from 'lucide-react'
-import { toast } from "sonner@2.0.3"
+import { toast } from "sonner"
 
 export function ShareButton() {
   const [isOpen, setIsOpen] = useState(false)
@@ -33,7 +33,7 @@ export function ShareButton() {
       action: () => {
         if (navigator.share) {
           navigator.share({
-            title: 'Prathik P - Frontend Developer',
+            title: 'Patan Sahil Khan - Frontend Developer',
             text: 'Check out this amazing portfolio!',
             url: window.location.href,
           })

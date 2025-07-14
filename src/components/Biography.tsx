@@ -306,7 +306,7 @@ export function Biography() {
             </blockquote>
             <div className="flex items-center justify-center gap-4">
               <Separator className="flex-1 max-w-24" />
-              <cite className="text-lg text-black poppins-bold">Prathik P</cite>
+              <cite className="text-lg text-black poppins-bold">Patan Sahil Khan</cite>
               <Separator className="flex-1 max-w-24" />
             </div>
             <p className="text-sm text-gray-600 poppins-regular">

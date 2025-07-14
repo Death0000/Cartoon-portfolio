@@ -15,10 +15,10 @@ interface SidebarProps {
 // Memoized social links component to prevent re-renders
 const SocialLinks = React.memo(({ compact = false }: { compact?: boolean }) => {
   const socialLinks = useMemo(() => [
-    { icon: Instagram, href: 'https://instagram.com/prathikp', label: 'Instagram' },
-    { icon: Linkedin, href: 'https://linkedin.com/in/prathikp', label: 'LinkedIn' },
-    { icon: Github, href: 'https://github.com/prathikp', label: 'GitHub' },
-    { icon: Twitter, href: 'https://twitter.com/prathikp', label: 'Twitter' }
+    { icon: Instagram, href: 'https://instagram.com/patansahilkhan', label: 'Instagram' },
+    { icon: Linkedin, href: 'https://linkedin.com/in/patansahilkhan', label: 'LinkedIn' },
+    { icon: Github, href: 'https://github.com/patansahilkhan', label: 'GitHub' },
+    { icon: Twitter, href: 'https://twitter.com/patansahilkhan', label: 'Twitter' }
   ], [])
 
   const currentYear = useMemo(() => new Date().getFullYear(), [])
@@ -215,7 +215,7 @@ export function Sidebar({ activeSection, setActiveSection, screenSize = 'desktop
                     className="text-black text-xs text-center poppins-light leading-relaxed"
                     style={{ fontFamily: 'cursive, Poppins' }}
                   >
-                    © {currentYear} Designed And Developed By - Pick One
+                    © {currentYear} Designed And Developed By - Patan Sahil Khan
                   </motion.p>
                 </div>
               </div>
@@ -254,7 +254,7 @@ export function Sidebar({ activeSection, setActiveSection, screenSize = 'desktop
               className="text-black text-xs xl:text-sm text-center poppins-light leading-relaxed"
               style={{ fontFamily: 'cursive, Poppins' }}
             >
-              © {currentYear} Designed And Developed By - Pick One
+              © {currentYear} Designed And Developed By - Patan Sahil Khan
             </motion.p>
           </div>
         </div>
@@ -270,7 +270,7 @@ export function Sidebar({ activeSection, setActiveSection, screenSize = 'desktop
           {/* Logo/Title */}
           <div className="mb-6">
             <h1 className="text-xl poppins-bold text-black border-b-4 border-black pb-2 comic-title">
-              Pick One
+              Patan Sahil Khan
             </h1>
           </div>
         </div>
@@ -289,7 +289,7 @@ export function Sidebar({ activeSection, setActiveSection, screenSize = 'desktop
             className="text-black text-xs text-center poppins-light leading-tight"
             style={{ fontFamily: 'cursive, Poppins' }}
           >
-            © {currentYear} Pick One
+            © {currentYear} Patan Sahil Khan
           </motion.p>
         </div>
       </div>

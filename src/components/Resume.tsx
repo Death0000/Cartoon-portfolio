@@ -382,7 +382,7 @@ export function Resume() {
                           <div className="relative">
                             <Progress 
                               value={skill.level} 
-                              className="h-2 sm:h-3 border-2 border-gray-300 bg-gray-100"
+                              className="h-2 sm:h-3 border-2 border-gray-300 bg-blue-100 [&_[data-slot=progress-indicator]]:bg-blue-300" 
                             />
 
                           </div>
@@ -423,7 +423,7 @@ export function Resume() {
                         <div className="relative">
                           <Progress 
                             value={skill.level} 
-                            className="h-2 sm:h-3 border-2 border-gray-300 bg-gray-100"
+                            className="h-2 sm:h-3 border-2 border-gray-300 bg-blue-100 [&_[data-slot=progress-indicator]]:bg-blue-300" 
                           />
 
                         </div>

@@ -103,7 +103,7 @@ export function HeroSection() {
               >
                 Hi, I'm{' '}
                 <span className="text-blue-600 relative">
-                  Sahil p
+                  Patan Sahil Khan
                   <motion.div
                     className="absolute -bottom-2 left-0 h-1 bg-blue-600 rounded-full"
                     initial={{ width: 0 }}
@@ -222,8 +222,8 @@ export function HeroSection() {
               <div className="relative bg-white p-1 rounded-xl comic-shadow-blue border-4 border-black">
                 <div className="bg-gradient-to-br from-gray-100 to-gray-200 p-3 rounded-lg">
                   <img
-                    src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=320&h=400&fit=crop&crop=face"
-                    alt="Patan sahil khan - Frontend Developer"
+                    src="/me.png"
+                    alt="Patan Sahil Khan - Frontend Developer"
                     className="w-72 h-80 object-cover rounded-lg border-2 border-gray-300"
                   />
                 </div>

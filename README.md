@@ -220,6 +220,6 @@ For support, email [your-email@example.com](mailto:your-email@example.com) or cr
 
 ---
 
-**Built with ❤️ by Pick One**
+**Built with ❤️ by Patan Sahil Khan**
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yourusername/cartoon-portfolio) 

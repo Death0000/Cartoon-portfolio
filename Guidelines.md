@@ -231,4 +231,4 @@ For issues or questions:
 
 ---
 
-**Built with ❤️ by Pick One**
+**Built with ❤️ by Patan Sahil Khan**
