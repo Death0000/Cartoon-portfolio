@@ -14,115 +14,130 @@ export function Portfolio() {
 
   const projects = [
     {
-      title: 'EcoMart - E-Commerce Platform',
-      description: 'Full-featured e-commerce platform with advanced search, real-time inventory, payment integration, and admin dashboard. Built for sustainable products marketplace with 10K+ active users.',
-      image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=300&fit=crop',
-      tags: ['React', 'TypeScript', 'Tailwind', 'Stripe', 'Redux'],
+      title: 'MWM Portal – Enterprise AVD Management',
+      description: 'Designed and developed the Modern Workplace Management (MWM) Portal for centralized provisioning, configuration, and lifecycle management of Azure Virtual Desktops (AVDs) for thousands of users. Automated AVD deployment, session host scaling, and resource clean-up using Azure APIs and PowerShell scripts. Streamlined user onboarding, application assignment, and policy enforcement, delivering a user-friendly interface for administrators.',
+      image: 'https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=400&h=300&fit=crop',
+      tags: ['Azure', 'PowerShell', 'AVD', 'Automation'],
       category: 'web',
-      liveUrl: 'https://ecomart-demo.vercel.app',
-      githubUrl: 'https://github.com/patansahilkhan/ecomart',
-      stats: { users: '10K+', rating: 4.8, duration: '6 months' },
+      liveUrl: '',
+      githubUrl: '',
+      stats: { users: '1000+', rating: 4.9, duration: 'Ongoing' },
       featured: true,
       icon: Globe,
-      highlights: ['Real-time inventory', 'Payment integration', 'Admin dashboard']
+      highlights: ['Centralized AVD management', 'Automated scaling', 'User-friendly admin interface']
     },
     {
-      title: 'DataViz Pro - Analytics Dashboard',
-      description: 'Enterprise analytics dashboard with real-time data visualization, custom reports, and team collaboration features. Processes 1M+ data points daily with sub-second response times.',
-      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop',
-      tags: ['Next.js', 'Chart.js', 'PostgreSQL', 'WebSocket', 'Docker'],
+      title: 'Self-Service Multi-Cloud Management App',
+      description: 'Built a self-help application enabling customers to provision, configure, and decommission VMs/instances across Azure, AWS, and OCI. Reduced operational overhead and accelerated resource delivery through automation.',
+      image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=300&fit=crop',
+      tags: ['Azure', 'AWS', 'OCI', 'Automation'],
       category: 'web',
-      liveUrl: 'https://dataviz-pro.example.com',
-      githubUrl: 'https://github.com/patansahilkhan/dataviz-pro',
-      stats: { users: '500+', rating: 4.9, duration: '8 months' },
+      liveUrl: '',
+      githubUrl: '',
+      stats: { users: '500+', rating: 4.8, duration: 'Ongoing' },
       featured: true,
       icon: TrendingUp,
-      highlights: ['Real-time data viz', 'Custom reports', 'Team collaboration']
+      highlights: ['Multi-cloud provisioning', 'Self-service portal', 'Rapid resource delivery']
     },
     {
-      title: 'ConnectSphere - Social Media App',
-      description: 'Modern social platform with real-time messaging, story features, content discovery, and advanced privacy controls. Built with React Native for cross-platform compatibility.',
-      image: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=400&h=300&fit=crop',
-      tags: ['React Native', 'Node.js', 'Socket.io', 'MongoDB', 'AWS'],
-      category: 'mobile',
-      liveUrl: 'https://connectsphere.app',
-      githubUrl: 'https://github.com/patansahilkhan/connectsphere',
-      stats: { users: '25K+', rating: 4.7, duration: '12 months' },
+      title: 'Multi-Cloud Automation with GitHub Actions & Terraform',
+      description: 'Implemented CI/CD pipelines using GitHub Actions to deploy and manage infrastructure across AWS, Azure, and GCP with Terraform. Achieved consistent, centralized automation and access control by integrating GitHub with multiple cloud platforms.',
+      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop',
+      tags: ['GitHub Actions', 'Terraform', 'AWS', 'Azure', 'GCP'],
+      category: 'web',
+      liveUrl: '',
+      githubUrl: '',
+      stats: { users: 'N/A', rating: 4.9, duration: 'Ongoing' },
       featured: true,
-      icon: Smartphone,
-      highlights: ['Real-time messaging', 'Story features', 'Cross-platform']
-    },
-    {
-      title: 'Portfolio Studio',
-      description: 'Responsive portfolio website with anime-inspired design, smooth animations, and interactive elements. Features dark/light mode and multi-language support.',
-      image: 'https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=400&h=300&fit=crop',
-      tags: ['React', 'Framer Motion', 'Tailwind', 'ShadCN'],
-      category: 'web',
-      liveUrl: 'https://portfolio-studio.dev',
-      githubUrl: 'https://github.com/patansahilkhan/portfolio-studio',
-      stats: { users: '2K+', rating: 4.9, duration: '2 months' },
-      featured: false,
       icon: Code2,
-      highlights: ['Anime-inspired design', 'Smooth animations', 'Multi-language']
+      highlights: ['CI/CD pipelines', 'Multi-cloud automation', 'Centralized access control']
     },
     {
-      title: 'TaskFlow - Project Management',
-      description: 'Collaborative project management tool with Kanban boards, time tracking, team chat, and automated reporting. Supports agile workflows and integrates with popular dev tools.',
+      title: 'Self-Hosted GitHub Runners on Kubernetes',
+      description: 'Deployed GitHub self-hosted runners on Amazon EKS and Azure AKS clusters to execute automation scripts at scale. Optimized performance and cost for large-scale automation workloads.',
       image: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=400&h=300&fit=crop',
-      tags: ['Vue.js', 'Vuex', 'Firebase', 'PWA', 'WebRTC'],
+      tags: ['GitHub Runners', 'Kubernetes', 'EKS', 'AKS'],
       category: 'web',
-      liveUrl: 'https://taskflow.pro',
-      githubUrl: 'https://github.com/patansahilkhan/taskflow',
-      stats: { users: '5K+', rating: 4.6, duration: '10 months' },
+      liveUrl: '',
+      githubUrl: '',
+      stats: { users: 'N/A', rating: 4.8, duration: 'Ongoing' },
       featured: false,
       icon: Users,
-      highlights: ['Kanban boards', 'Time tracking', 'Team chat']
+      highlights: ['Self-hosted runners', 'Kubernetes integration', 'Cost optimization']
     },
     {
-      title: 'WeatherWise - Weather App',
-      description: 'Beautiful weather application with location-based forecasts, weather maps, severe weather alerts, and historical data. Features offline support and widget customization.',
+      title: 'Auto Start/Stop of Cloud Resources Based on Tags',
+      description: 'Developed serverless solutions (Azure Functions, AWS Lambda) to automatically start and stop resources (Azure VMs, EC2) using tag-based logic. Scheduled operations to optimize cost savings and ensure compliance with usage policies.',
       image: 'https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=400&h=300&fit=crop',
-      tags: ['React', 'OpenWeather API', 'PWA', 'Offline Support'],
-      category: 'mobile',
-      liveUrl: 'https://weatherwise.app',
-      githubUrl: 'https://github.com/patansahilkhan/weatherwise',
-      stats: { users: '15K+', rating: 4.5, duration: '3 months' },
-      featured: false,
-      icon: Globe,
-      highlights: ['Location-based forecasts', 'Weather maps', 'Offline support']
-    },
-    {
-      title: 'CryptoTracker Pro',
-      description: 'Real-time cryptocurrency tracking app with portfolio management, price alerts, news aggregation, and technical analysis tools. Supports 1000+ cryptocurrencies.',
-      image: 'https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=400&h=300&fit=crop',
-      tags: ['React', 'WebSocket', 'Chart.js', 'CoinGecko API'],
+      tags: ['Azure Functions', 'AWS Lambda', 'Serverless', 'Automation'],
       category: 'web',
-      liveUrl: 'https://cryptotracker-pro.app',
-      githubUrl: 'https://github.com/patansahilkhan/cryptotracker',
-      stats: { users: '8K+', rating: 4.4, duration: '4 months' },
-      featured: false,
-      icon: TrendingUp,
-      highlights: ['Real-time tracking', 'Portfolio management', 'Price alerts']
-    },
-    {
-      title: 'FitnessHub - Health Tracker',
-      description: 'Comprehensive fitness tracking mobile app with workout plans, nutrition tracking, progress analytics, and social challenges. Integrates with wearable devices.',
-      image: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop',
-      tags: ['React Native', 'HealthKit', 'Firebase', 'ML Kit'],
-      category: 'mobile',
-      liveUrl: 'https://fitnesshub.health',
-      githubUrl: 'https://github.com/patansahilkhan/fitnesshub',
-      stats: { users: '12K+', rating: 4.7, duration: '9 months' },
+      liveUrl: '',
+      githubUrl: '',
+      stats: { users: 'N/A', rating: 4.7, duration: 'Ongoing' },
       featured: false,
       icon: Zap,
-      highlights: ['Workout plans', 'Nutrition tracking', 'Wearable integration']
+      highlights: ['Tag-based automation', 'Serverless scheduling', 'Cost savings']
+    },
+    {
+      title: 'Cloud Landing Zone Automation',
+      description: 'Created Terraform-based landing zone frameworks for secure, scalable onboarding of cloud tenants. Included network segmentation, logging, IAM roles, and guardrails for compliance and security.',
+      image: 'https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=400&h=300&fit=crop',
+      tags: ['Terraform', 'Landing Zone', 'Security', 'IAM'],
+      category: 'web',
+      liveUrl: '',
+      githubUrl: '',
+      stats: { users: 'N/A', rating: 4.8, duration: 'Ongoing' },
+      featured: false,
+      icon: Star,
+      highlights: ['Landing zone automation', 'Network segmentation', 'Security guardrails']
+    },
+    {
+      title: 'Monitoring, Logging, and Custom Metrics',
+      description: 'Engineered solutions for collecting CloudWatch custom logs and memory metrics from Windows Servers. Integrated monitoring into automation workflows for real-time visibility and proactive alerts.',
+      image: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop',
+      tags: ['CloudWatch', 'Monitoring', 'Logging', 'Automation'],
+      category: 'web',
+      liveUrl: '',
+      githubUrl: '',
+      stats: { users: 'N/A', rating: 4.7, duration: 'Ongoing' },
+      featured: false,
+      icon: Award,
+      highlights: ['Custom metrics', 'Real-time monitoring', 'Proactive alerts']
+    },
+    {
+      title: 'Security, Compliance & Penetration Testing',
+      description: 'Conducted Vulnerability and Penetration Testing (VPAT) in AWS environments to identify and resolve security gaps. Applied cloud security best practices for IAM, network access, and data encryption. Managed security configurations for Azure services such as Key Vault, Cosmos DB, and Storage Accounts.',
+      image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=300&fit=crop',
+      tags: ['Security', 'Penetration Testing', 'IAM', 'Azure', 'AWS'],
+      category: 'web',
+      liveUrl: '',
+      githubUrl: '',
+      stats: { users: 'N/A', rating: 4.8, duration: 'Ongoing' },
+      featured: false,
+      icon: Code2,
+      highlights: ['VPAT', 'Cloud security', 'Encryption best practices']
+    },
+    {
+      title: 'WordPress Multisite Application on AWS',
+      description: 'Designed and deployed a highly scalable WordPress multisite infrastructure on AWS using CloudFormation templates. Configured EC2 instances in an Auto Scaling Group behind an Application Load Balancer (ALB) for optimized performance and availability. Migrated MySQL databases to Amazon RDS, ensuring high availability and reliability. Managed millions of images in Amazon S3 with CloudFront integration for secure, low-latency delivery. Designed and deployed VPCs with public/private subnets, routing tables, and NAT Gateways. Migrated 16 Classic EC2 instances to VPC-based architecture with minimal downtime. Deployed Elastic File System (EFS) for scalable shared storage and migrated legacy data to new RDS instances.',
+      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop',
+      tags: ['AWS', 'CloudFormation', 'EC2', 'RDS', 'S3', 'CloudFront'],
+      category: 'web',
+      liveUrl: '',
+      githubUrl: '',
+      stats: { users: 'N/A', rating: 4.9, duration: 'Ongoing' },
+      featured: false,
+      icon: Globe,
+      highlights: ['Scalable WordPress', 'Auto Scaling', 'Cloud migration']
     }
   ]
 
   const categories = [
-    { id: 'all', label: 'All Projects', count: projects.length, icon: Globe },
-    { id: 'web', label: 'Web Apps', count: projects.filter(p => p.category === 'web').length, icon: Code2 },
-    { id: 'mobile', label: 'Mobile Apps', count: projects.filter(p => p.category === 'mobile').length, icon: Smartphone },
+    { id: 'all', label: 'All Cloud Projects', count: projects.length, icon: Globe },
+    { id: 'iac', label: 'Infrastructure as Code', count: projects.filter(p => p.tags.includes('Terraform')).length, icon: Code2 },
+    { id: 'serverless', label: 'Serverless Automation', count: projects.filter(p => p.tags.includes('Serverless') || p.tags.includes('Lambda') || p.tags.includes('Azure Functions')).length, icon: Zap },
+    { id: 'multi-cloud', label: 'Multi-Cloud Integrations', count: projects.filter(p => p.tags.includes('Azure') && p.tags.includes('AWS')).length, icon: TrendingUp },
+    { id: 'security', label: 'Cloud Security', count: projects.filter(p => p.tags.includes('Security')).length, icon: Award },
     { id: 'featured', label: 'Featured', count: projects.filter(p => p.featured).length, icon: Star }
   ]
 
@@ -166,36 +181,35 @@ export function Portfolio() {
       <motion.div variants={itemVariants} className="text-center space-y-6">
         <div className="space-y-4">
           <Badge className="bg-purple-100 text-purple-800 border-2 border-purple-300 px-4 py-2 rounded-full poppins-semibold">
-            Portfolio Showcase
+            Cloud Solutions Portfolio
           </Badge>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl text-black comic-title poppins-bold">
-            My Work
+            Infrastructure as Code (IaC) Projects
           </h1>
           <div className="w-24 h-1 bg-purple-600 mx-auto rounded-full"></div>
         </div>
         <p className="text-gray-600 text-lg leading-relaxed poppins-regular max-w-4xl mx-auto">
-          A showcase of projects that demonstrate my expertise in frontend development, 
-          from simple landing pages to complex enterprise applications serving thousands of users.
+          Explore my cloud engineering case studies, featuring multi-cloud automation, serverless computing, CI/CD pipeline automation, and secure cloud architecture across Azure, AWS, and OCI.
         </p>
       </motion.div>
 
       {/* Stats Overview */}
       <motion.div variants={itemVariants} className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
         <Card className="border-2 border-blue-200 bg-blue-50 text-center p-4 comic-shadow">
-          <div className="text-2xl poppins-bold text-blue-600">50+</div>
-          <div className="text-sm text-blue-700 poppins-medium">Projects</div>
+          <div className="text-2xl poppins-bold text-blue-600">20+</div>
+          <div className="text-sm text-blue-700 poppins-medium">Cloud Deployments</div>
         </Card>
         <Card className="border-2 border-green-200 bg-green-50 text-center p-4 comic-shadow">
-          <div className="text-2xl poppins-bold text-green-600">75K+</div>
-          <div className="text-sm text-green-700 poppins-medium">Users</div>
+          <div className="text-2xl poppins-bold text-green-600">1000+</div>
+          <div className="text-sm text-green-700 poppins-medium">Automated Workflows</div>
         </Card>
         <Card className="border-2 border-yellow-200 bg-yellow-50 text-center p-4 comic-shadow">
-          <div className="text-2xl poppins-bold text-yellow-600">4.7</div>
-          <div className="text-sm text-yellow-700 poppins-medium">Avg Rating</div>
+          <div className="text-2xl poppins-bold text-yellow-600">4.9</div>
+          <div className="text-sm text-yellow-700 poppins-medium">Cloud Security Rating</div>
         </Card>
         <Card className="border-2 border-purple-200 bg-purple-50 text-center p-4 comic-shadow">
           <div className="text-2xl poppins-bold text-purple-600">4+</div>
-          <div className="text-sm text-purple-700 poppins-medium">Years</div>
+          <div className="text-sm text-purple-700 poppins-medium">Years Multi-Cloud Exp</div>
         </Card>
       </motion.div>
 

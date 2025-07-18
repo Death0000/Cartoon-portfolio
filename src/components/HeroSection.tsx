@@ -13,10 +13,10 @@ export function HeroSection() {
   const [isVisible, setIsVisible] = useState(false)
 
   const typingTexts = [
-    "Frontend Developer",
-    "React Specialist", 
-    "UI/UX Enthusiast",
-    "Team Leader"
+    "Senior Cloud Engineer",
+    "Multi-Cloud Automation Expert",
+    "DevOps & IaC Specialist",
+    "Python & PowerShell Scripter"
   ]
 
   useEffect(() => {
@@ -28,17 +28,17 @@ export function HeroSection() {
   }, [])
 
   const stats = [
-    { icon: Calendar, value: "4+", label: "Years Experience", color: "text-blue-500" },
-    { icon: Award, value: "50+", label: "Projects Completed", color: "text-green-500" },
-    { icon: Users, value: "8+", label: "Team Members Led", color: "text-purple-500" },
+    { icon: Calendar, value: "4+", label: "Years Cloud Experience", color: "text-blue-500" },
+    { icon: Award, value: "20+", label: "Cloud Projects", color: "text-green-500" },
+    { icon: Users, value: "1000+", label: "Users Impacted", color: "text-purple-500" },
     { icon: Star, value: "4.9", label: "Client Rating", color: "text-yellow-500" }
   ]
 
   const achievements = [
-    "Led 5+ frontend developers in enterprise projects",
-    "Improved deployment speed by 60% with micro-frontends",
-    "Built reusable component library for 15+ projects",
-    "Reduced bugs by 40% with automated testing"
+    "Automated multi-cloud infrastructure with Terraform & GitHub Actions",
+    "Built self-service cloud management apps for Azure, AWS, OCI",
+    "Deployed scalable AVD & VM solutions for 1000+ users",
+    "Engineered cost-saving automation for cloud resources"
   ]
 
   const containerVariants = {
@@ -103,7 +103,7 @@ export function HeroSection() {
               >
                 Hi, I'm{' '}
                 <span className="text-blue-600 relative">
-                  Patan Sahil Khan
+                  Rehan Ghanchi
                   <motion.div
                     className="absolute -bottom-2 left-0 h-1 bg-blue-600 rounded-full"
                     initial={{ width: 0 }}
@@ -135,9 +135,7 @@ export function HeroSection() {
               variants={itemVariants}
               className="text-gray-600 text-lg leading-relaxed poppins-regular max-w-2xl text-center lg:text-left"
             >
-              Passionate Frontend Developer with 4+ years of experience creating stunning, 
-              responsive web applications. I specialize in React, TypeScript, and modern web 
-              technologies, leading teams to deliver exceptional user experiences.
+              Passionate Senior Cloud Engineer with 4+ years of hands-on experience in Azure, AWS, and OCI. Expert in automating cloud infrastructure, CI/CD, and cloud security. I drive efficiency and scalability through innovative automation and multi-cloud solutions.
             </motion.p>
 
             {/* Key Achievements */}
@@ -222,7 +220,7 @@ export function HeroSection() {
               <div className="relative bg-white p-1 rounded-xl comic-shadow-blue border-4 border-black">
                 <div className="bg-gradient-to-br from-gray-100 to-gray-200 p-3 rounded-lg">
                   <img
-                    src="/me.png"
+                    src="/rehan.png"
                     alt="Patan Sahil Khan - Frontend Developer"
                     className="w-72 h-80 object-cover rounded-lg border-2 border-gray-300"
                   />
@@ -275,7 +273,7 @@ export function HeroSection() {
             >
               <div className="inline-block p-4 bg-gradient-to-r from-blue-50 to-purple-50 border-2 border-gray-200 rounded-lg comic-shadow">
                 <p className="text-3xl text-black italic poppins-semibold mb-2" style={{ fontFamily: 'cursive, Poppins' }}>
-                  -Patan sahil khan
+                  -Rehan Ghanchi
                 </p>
                 <p className="text-xs text-gray-600 poppins-regular">
                   "Crafting digital experiences with passion"

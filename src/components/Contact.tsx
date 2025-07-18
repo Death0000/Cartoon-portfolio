@@ -56,7 +56,7 @@ export function Contact() {
     {
       icon: Linkedin,
       label: 'LinkedIn',
-      href: 'https://linkedin.com/in/patansahilkhan',
+      href: 'https://www.linkedin.com/in/rehan-ghanchi-586463227/',
       color: 'text-blue-600'
     },
     {

@@ -9,7 +9,7 @@ export function Footer() {
 
   const socialLinks = [
     { icon: Instagram, href: 'https://instagram.com/patansahilkhan', label: 'Instagram' },
-    { icon: Linkedin, href: 'https://linkedin.com/in/patansahilkhan', label: 'LinkedIn' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/in/rehan-ghanchi-586463227/', label: 'LinkedIn' },
     { icon: Github, href: 'https://github.com/patansahilkhan', label: 'GitHub' },
     { icon: Twitter, href: 'https://twitter.com/patansahilkhan', label: 'Twitter' }
   ]
@@ -56,7 +56,7 @@ export function Footer() {
             className="text-black text-sm poppins-regular"
             style={{ fontFamily: 'cursive, Poppins' }}
           >
-            © {currentYear} Designed And Developed By - Patan Sahil Khan
+            © {currentYear} Designed And Developed By - Rehan Ghanchi
           </motion.p>
         </div>
       </div>

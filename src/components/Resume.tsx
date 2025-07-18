@@ -14,22 +14,22 @@ export function Resume() {
   const [skillFilter, setSkillFilter] = useState('all')
 
   const technicalSkills = [
-    { name: 'React/Next.js', level: 95, category: 'frontend', icon: '⚛️' },
-    { name: 'TypeScript', level: 90, category: 'frontend', icon: '🔵' },
-    { name: 'JavaScript (ES6+)', level: 95, category: 'frontend', icon: '🟨' },
-    { name: 'Vue.js/Nuxt.js', level: 85, category: 'frontend', icon: '🟢' },
-    { name: 'HTML5/CSS3', level: 98, category: 'frontend', icon: '🔴' },
-    { name: 'Tailwind CSS', level: 92, category: 'styling', icon: '🌊' },
-    { name: 'Styled Components', level: 88, category: 'styling', icon: '💅' },
-    { name: 'SASS/SCSS', level: 90, category: 'styling', icon: '🎨' },
-    { name: 'Node.js', level: 80, category: 'backend', icon: '🟢' },
-    { name: 'Express.js', level: 78, category: 'backend', icon: '🚀' },
-    { name: 'MongoDB', level: 75, category: 'database', icon: '🍃' },
-    { name: 'PostgreSQL', level: 70, category: 'database', icon: '🐘' },
-    { name: 'Git/GitHub', level: 90, category: 'tools', icon: '🐙' },
-    { name: 'Docker', level: 75, category: 'tools', icon: '🐳' },
-    { name: 'AWS/Vercel', level: 80, category: 'tools', icon: '☁️' },
-    { name: 'Figma/Adobe XD', level: 85, category: 'design', icon: '🎨' }
+    { name: 'Azure Cloud', level: 95, category: 'cloud', icon: '☁️' },
+    { name: 'AWS Cloud', level: 90, category: 'cloud', icon: '☁️' },
+    { name: 'OCI', level: 80, category: 'cloud', icon: '☁️' },
+    { name: 'Terraform', level: 95, category: 'iac', icon: '🌍' },
+    { name: 'GitHub Actions', level: 90, category: 'devops', icon: '⚙️' },
+    { name: 'Python', level: 85, category: 'automation', icon: '🐍' },
+    { name: 'PowerShell', level: 85, category: 'automation', icon: '💻' },
+    { name: 'Kubernetes', level: 80, category: 'devops', icon: '☸️' },
+    { name: 'Azure Logic Apps', level: 80, category: 'cloud', icon: '🔗' },
+    { name: 'Azure Functions', level: 85, category: 'automation', icon: '⚡' },
+    { name: 'AWS Lambda', level: 85, category: 'automation', icon: 'λ' },
+    { name: 'CloudWatch', level: 80, category: 'monitoring', icon: '🔍' },
+    { name: 'Linux', level: 80, category: 'devops', icon: '🐧' },
+    { name: 'Amazon RDS', level: 80, category: 'database', icon: '🗄️' },
+    { name: 'Amazon S3', level: 85, category: 'database', icon: '🗄️' },
+    { name: 'Azure Storage', level: 80, category: 'database', icon: '🗄️' }
   ]
 
   const softSkills = [
@@ -43,112 +43,143 @@ export function Resume() {
 
   const experience = [
     {
-      title: 'Senior Frontend Developer',
-      company: 'Tech Solutions Bangalore',
-      duration: 'Jan 2024 - Present',
+      title: 'Senior Cloud Engineer',
+      company: 'Dhruthzuci Tech solutions pvt Ltd',
+      duration: 'May 2022 - Present',
       location: 'Bangalore, India',
       type: 'Full-time',
       responsibilities: [
-        'Lead a team of 5 frontend developers on enterprise React applications',
-        'Architect and implement micro-frontend solutions for scalable applications',
-        'Establish coding standards and best practices across development teams',
-        'Conduct code reviews and mentor junior developers',
-        'Collaborate with product managers and designers on feature planning'
+        'Lead infrastructure automation and multi-cloud integration (Azure, AWS, OCI)',
+        'Designed and developed MWM Portal for Azure Virtual Desktops',
+        'Built self-service multi-cloud management apps',
+        'Implemented CI/CD pipelines with GitHub Actions and Terraform',
+        'Deployed GitHub self-hosted runners on Kubernetes (EKS, AKS)',
+        'Engineered cost-saving automation for cloud resources',
+        'Created Terraform-based landing zones for secure onboarding',
+        'Integrated monitoring and custom metrics with CloudWatch',
+        'Conducted security, compliance, and penetration testing in cloud environments'
       ],
       achievements: [
-        'Reduced application load time by 45% through optimization techniques',
-        'Implemented automated testing that reduced bugs by 60%',
-        'Led migration of legacy jQuery codebase to React, improving maintainability'
+        'Automated AVD management for 1000+ users',
+        'Achieved consistent multi-cloud provisioning',
+        'Reduced cloud costs with tag-based automation',
+        'Improved security posture with best practices'
       ],
-      technologies: ['React', 'TypeScript', 'Micro-frontends', 'Team Leadership']
+      technologies: ['Azure', 'AWS', 'OCI', 'Terraform', 'GitHub Actions', 'Python', 'PowerShell', 'Kubernetes']
     },
     {
-      title: 'Frontend Team Lead',
-      company: 'Digital Innovation Lab',
-      duration: 'Jun 2023 - Dec 2023',
-      location: 'Bangalore, India',
+      title: 'Support Engineer',
+      company: 'Cloud Champions Ventures',
+      duration: 'Sep 2021 - May 2022',
+      location: 'Remote',
       type: 'Full-time',
       responsibilities: [
-        'Managed frontend development for 3 concurrent client projects',
-        'Built and maintained component library used across 15+ projects',
-        'Introduced modern development practices and CI/CD pipelines',
-        'Coordinated with cross-functional teams for project delivery'
+        'Provided technical support and guidance on AWS platform',
+        'Designed and deployed scalable AWS infrastructure (EC2, VPC, RDS, CloudFront, ALB, EFS)',
+        'Assisted students in practical AWS labs and exercises'
       ],
       achievements: [
-        'Delivered all projects on time with 98% client satisfaction rate',
-        'Reduced development time by 30% through reusable component library',
-        'Trained team of 8 developers on modern React patterns'
+        'Deployed highly available AWS solutions',
+        'Mentored students in AWS labs',
+        'Improved infrastructure scalability and reliability'
       ],
-      technologies: ['Vue.js', 'Component Library', 'CI/CD', 'Team Management']
-    },
-    {
-      title: 'Frontend Developer',
-      company: 'Digital Innovation Lab',
-      duration: 'Aug 2022 - May 2023',
-      location: 'Bangalore, India',
-      type: 'Full-time',
-      responsibilities: [
-        'Developed responsive web applications using React and Vue.js',
-        'Collaborated with UX/UI designers to implement pixel-perfect designs',
-        'Integrated RESTful APIs and handled state management',
-        'Optimized applications for performance and accessibility'
-      ],
-      achievements: [
-        'Built 12+ production-ready web applications',
-        'Achieved 95+ lighthouse performance scores on all projects',
-        'Implemented accessibility features reaching WCAG 2.1 AA compliance'
-      ],
-      technologies: ['React', 'Vue.js', 'API Integration', 'Performance']
+      technologies: ['AWS', 'EC2', 'VPC', 'RDS', 'CloudFront', 'ALB', 'EFS']
     }
   ]
 
   const education = [
     {
-      degree: 'Bachelor of Computer Science',
-      institution: 'Indian Institute of Technology',
-      year: '2018 - 2021',
-      grade: 'CGPA: 8.7/10',
+      degree: 'Bachelor of Commerce (E-Commerce)',
+      institution: 'Dr. Babasaheb Ambedkar University',
+      year: '2019 - 2021',
+      grade: '',
       details: [
-        'Specialization in Web Technologies and Software Engineering',
-        'Final Year Project: Real-time Collaborative Code Editor',
-        'Core Subjects: Data Structures, Algorithms, Database Systems, Computer Networks',
-        'Relevant Coursework: Web Development, Mobile App Development, UI/UX Design'
+        'Focus on E-Commerce and cloud technology fundamentals'
+      ]
+    },
+    {
+      degree: 'Higher Secondary Education (12th Grade)',
+      institution: 'Rashtramata College, Jalna',
+      year: 'Completed in 2018',
+      grade: '',
+      details: [
+        'Science and technology focus'
       ]
     }
   ]
 
   const certifications = [
     {
-      name: 'Meta Frontend Developer Professional Certificate',
-      issuer: 'Meta (Facebook)',
-      year: '2023',
-      credentialId: 'META-FE-2023-456',
-      logo: '📘',
-      skills: ['React', 'JavaScript', 'HTML/CSS', 'Version Control']
-    },
-    {
-      name: 'Google UX Design Certificate',
-      issuer: 'Google',
-      year: '2023',
-      credentialId: 'GOOGLE-UX-2023-789',
-      logo: '🎨',
-      skills: ['User Research', 'Wireframing', 'Prototyping', 'Usability Testing']
-    },
-    {
       name: 'AWS Certified Cloud Practitioner',
       issuer: 'Amazon Web Services',
       year: '2022',
-      credentialId: 'AWS-CCP-2022-123',
+      credentialId: '',
       logo: '☁️',
       skills: ['Cloud Computing', 'AWS Services', 'Security', 'Pricing']
     },
     {
-      name: 'Certified ScrumMaster (CSM)',
-      issuer: 'Scrum Alliance',
+      name: 'AWS Well-Architected Best Practices',
+      issuer: 'Amazon Web Services',
       year: '2022',
-      credentialId: 'CSM-2022-456',
-      logo: '🏃',
-      skills: ['Agile Methodology', 'Team Leadership', 'Sprint Planning', 'Retrospectives']
+      credentialId: '',
+      logo: '☁️',
+      skills: ['Best Practices', 'Architecture']
+    },
+    {
+      name: 'Cloud Practitioner Accreditation',
+      issuer: 'Amazon Web Services',
+      year: '2022',
+      credentialId: '',
+      logo: '☁️',
+      skills: ['Cloud Fundamentals']
+    },
+    {
+      name: 'Technical Accreditation',
+      issuer: 'Amazon Web Services',
+      year: '2022',
+      credentialId: '',
+      logo: '☁️',
+      skills: ['Technical Skills']
+    },
+    {
+      name: 'Business Accreditation',
+      issuer: 'Amazon Web Services',
+      year: '2022',
+      credentialId: '',
+      logo: '☁️',
+      skills: ['Business Skills']
+    },
+    {
+      name: 'Foundations – Business',
+      issuer: 'Amazon Web Services',
+      year: '2022',
+      credentialId: '',
+      logo: '☁️',
+      skills: ['Business Foundations']
+    },
+    {
+      name: 'Migrating to AWS – Technical',
+      issuer: 'Amazon Web Services',
+      year: '2022',
+      credentialId: '',
+      logo: '☁️',
+      skills: ['Migration', 'Technical Skills']
+    },
+    {
+      name: 'Migrating to AWS – Business',
+      issuer: 'Amazon Web Services',
+      year: '2022',
+      credentialId: '',
+      logo: '☁️',
+      skills: ['Migration', 'Business Skills']
+    },
+    {
+      name: 'Introduction to AWS Organizations',
+      issuer: 'Amazon Web Services',
+      year: '2022',
+      credentialId: '',
+      logo: '☁️',
+      skills: ['AWS Organizations']
     }
   ]
 
@@ -161,40 +192,34 @@ export function Resume() {
 
   const achievements = [
     {
-      title: 'Led enterprise project worth $2M+',
-      description: 'Successfully managed frontend team of 5 developers',
-      icon: '💰',
-      category: 'Leadership'
+      title: 'Automated multi-cloud infrastructure',
+      description: 'Provisioned and managed resources across Azure, AWS, and OCI using Terraform and GitHub Actions',
+      icon: '⚙️',
+      category: 'Automation'
     },
     {
-      title: 'Improved application performance by 40%',
-      description: 'Through advanced optimization techniques and best practices',
-      icon: '🚀',
-      category: 'Performance'
-    },
-    {
-      title: 'Built 20+ responsive websites',
-      description: 'Serving 100K+ users monthly across different industries',
-      icon: '🌐',
+      title: 'Built self-service cloud management apps',
+      description: 'Enabled rapid VM/instance delivery and reduced operational overhead',
+      icon: '🛠️',
       category: 'Development'
     },
     {
-      title: 'Mentored 10+ junior developers',
-      description: '8 received promotions within 18 months',
-      icon: '🎓',
-      category: 'Mentoring'
+      title: 'Deployed scalable AVD & VM solutions',
+      description: 'Centralized management for 1000+ users',
+      icon: '☁️',
+      category: 'Cloud'
     },
     {
-      title: 'Tech conference speaker',
-      description: 'Spoke at 3 conferences on modern frontend development',
-      icon: '🎤',
-      category: 'Speaking'
+      title: 'Engineered cost-saving automation',
+      description: 'Auto start/stop and tag-based scheduling for cloud resources',
+      icon: '💡',
+      category: 'Optimization'
     },
     {
-      title: 'Open source contributor',
-      description: '500+ GitHub stars across projects',
-      icon: '⭐',
-      category: 'Community'
+      title: 'Conducted cloud security & compliance',
+      description: 'VPAT, IAM best practices, and encryption for secure cloud environments',
+      icon: '🔒',
+      category: 'Security'
     }
   ]
 
@@ -204,12 +229,12 @@ export function Resume() {
 
   const skillCategories = [
     { id: 'all', label: 'All Skills', icon: '📚' },
-    { id: 'frontend', label: 'Frontend', icon: '⚛️' },
-    { id: 'styling', label: 'Styling', icon: '🎨' },
-    { id: 'backend', label: 'Backend', icon: '🔧' },
-    { id: 'database', label: 'Database', icon: '🗄️' },
-    { id: 'tools', label: 'Tools', icon: '🛠️' },
-    { id: 'design', label: 'Design', icon: '🎯' }
+    { id: 'cloud', label: 'Cloud Platforms', icon: '☁️' },
+    { id: 'iac', label: 'Infrastructure as Code', icon: '🌍' },
+    { id: 'automation', label: 'Automation & Scripting', icon: '⚡' },
+    { id: 'devops', label: 'DevOps Tools', icon: '🛠️' },
+    { id: 'monitoring', label: 'Monitoring & Security', icon: '🔒' },
+    { id: 'database', label: 'Database & Storage', icon: '🗄️' }
   ]
 
   const containerVariants = {

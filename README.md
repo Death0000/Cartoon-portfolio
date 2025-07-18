@@ -1,43 +1,35 @@
-# 🎨 Cartoon Portfolio
+# Rehan Ghanchi - Senior Cloud Engineer Portfolio
 
-A modern, responsive portfolio website with cartoon/anime styling built with Next.js, Framer Motion, and Tailwind CSS. Features smooth animations, interactive components, and a unique visual design.
+A modern, responsive portfolio website showcasing cloud engineering projects, skills, and experience.
 
-![Portfolio Preview](https://via.placeholder.com/800x400/3B82F6/FFFFFF?text=Cartoon+Portfolio+Preview)
+## 🚀 Features
 
-## ✨ Features
-
-- 🎭 **Cartoon/Anime Styling** - Unique visual design with comic-style elements
-- 📱 **Fully Responsive** - Optimized for mobile, tablet, and desktop
-- ⚡ **Smooth Animations** - Powered by Framer Motion for engaging interactions
-- 🎯 **Performance Optimized** - React.memo, useCallback, and useMemo for efficiency
-- 🎨 **Modern UI Components** - Built with Radix UI and Tailwind CSS
-- 🔔 **Interactive Notifications** - Toast notifications with Sonner
-- 📊 **Loading Screen** - Animated loading experience
-- 🎪 **Interactive Navigation** - Smooth section transitions
+- **Modern Design**: Clean, professional UI with smooth animations
+- **Responsive**: Works perfectly on desktop, tablet, and mobile
+- **Cloud-Focused**: Showcases cloud engineering projects and skills
+- **Interactive**: Smooth navigation and engaging user experience
+- **SEO Optimized**: Built with Next.js for optimal performance
 
 ## 🛠️ Tech Stack
 
-- **Framework**: Next.js 14 (App Router)
-- **Language**: TypeScript
+- **Framework**: Next.js 14
 - **Styling**: Tailwind CSS
+- **UI Components**: Radix UI + shadcn/ui
 - **Animations**: Framer Motion
 - **Icons**: Lucide React
-- **UI Components**: Radix UI
-- **Notifications**: Sonner
 - **Deployment**: Vercel
 
-## 🚀 Quick Start
+## 📋 Prerequisites
 
-### Prerequisites
-- Node.js 18+
+- Node.js 18+ 
 - npm 8+
 
-### Installation
+## 🚀 Quick Start
 
 1. **Clone the repository**
    ```bash
    git clone <your-repo-url>
-   cd cartoon-portfolio
+   cd CartoonMain
    ```
 
 2. **Install dependencies**
@@ -53,173 +45,95 @@ A modern, responsive portfolio website with cartoon/anime styling built with Nex
 4. **Open your browser**
    Navigate to [http://localhost:3000](http://localhost:3000)
 
-## 📁 Project Structure
+## 🚀 Deploy to Vercel
 
-```
-src/
-├── app/                    # Next.js App Router
-│   ├── layout.tsx         # Root layout with metadata
-│   └── page.tsx           # Home page component
-├── components/            # React components
-│   ├── ui/               # Reusable UI components (Radix UI)
-│   ├── Sidebar.tsx       # Navigation sidebar
-│   ├── HeroSection.tsx   # Landing section
-│   ├── Biography.tsx     # About section
-│   ├── Portfolio.tsx     # Projects section
-│   ├── Resume.tsx        # Skills & experience
-│   ├── Contact.tsx       # Contact form
-│   └── LoadingScreen.tsx # Loading animation
-└── styles/
-    └── globals.css       # Global styles & Tailwind config
-```
+### Option 1: Deploy via Vercel Dashboard (Recommended)
 
-## 🌐 Deployment
-
-### Vercel (Recommended)
-
-1. **Push to GitHub**
+1. **Push your code to GitHub**
    ```bash
    git add .
    git commit -m "Initial commit"
    git push origin main
    ```
 
-2. **Deploy to Vercel**
+2. **Deploy on Vercel**
    - Go to [vercel.com](https://vercel.com)
-   - Import your GitHub repository
+   - Sign in with your GitHub account
+   - Click "New Project"
+   - Import your repository
    - Vercel will auto-detect Next.js settings
    - Click "Deploy"
 
-3. **Custom Domain** (Optional)
-   - Add your domain in Vercel dashboard
-   - Configure DNS settings
+### Option 2: Deploy via Vercel CLI
 
-### Manual Deployment
+1. **Install Vercel CLI**
+   ```bash
+   npm i -g vercel
+   ```
 
-```bash
-# Build the project
-npm run build
+2. **Deploy**
+   ```bash
+   vercel
+   ```
 
-# Deploy to Vercel CLI
-npm install -g vercel
-vercel --prod
+3. **Follow the prompts**
+   - Link to existing project or create new
+   - Choose your team/account
+   - Confirm deployment settings
+
+## 📁 Project Structure
+
+```
+src/
+├── components/          # React components
+│   ├── ui/             # Reusable UI components
+│   ├── HeroSection.tsx # Landing page hero
+│   ├── Portfolio.tsx   # Projects showcase
+│   ├── Resume.tsx      # Skills and experience
+│   └── ...
+├── app/                # Next.js app directory
+├── styles/             # Global styles
+└── ...
 ```
 
-## 🎨 Design System
+## 🔧 Configuration
 
-### Color Palette
-- **Primary**: Blue (#3B82F6)
-- **Secondary**: Purple (#8B5CF6)
-- **Background**: Slate-50 to Blue-50 gradient
-- **Text**: Black (#000000)
-- **Borders**: Black (#000000)
+### Environment Variables
+Create a `.env.local` file for any environment-specific settings:
 
-### Typography
-- **Font Family**: Poppins (Google Fonts)
-- **Weights**: 300, 400, 500, 600, 700, 800, 900
-
-### Animations
-- Entrance animations with Framer Motion
-- Hover effects with scale and translate
-- Loading screen with progress animation
-- Smooth page transitions
-
-## 📱 Responsive Design
-
-### Breakpoints
-- **Mobile**: < 768px
-- **Tablet**: 768px - 1023px
-- **Desktop**: >= 1024px
-
-### Layout Adaptations
-- **Mobile**: Single navigation bar with hamburger menu
-- **Tablet**: Compact sidebar with reduced spacing
-- **Desktop**: Full sidebar with expanded content
-
-## 🔧 Performance Optimizations
-
-### Implemented
-- ✅ React.memo for component memoization
-- ✅ useCallback for function memoization
-- ✅ useMemo for expensive calculations
-- ✅ Optimized re-renders in Sidebar component
-- ✅ GPU-accelerated animations
-- ✅ Image optimization with Next.js
-
-### Performance Metrics
-- **First Contentful Paint**: < 1.5s
-- **Largest Contentful Paint**: < 2.5s
-- **Cumulative Layout Shift**: < 0.1
-- **First Input Delay**: < 100ms
-
-## 🧪 Testing
-
-### Manual Testing Checklist
-- [ ] Responsive design on all screen sizes
-- [ ] Navigation functionality
-- [ ] Form submissions
-- [ ] Animation performance
-- [ ] Accessibility features
-- [ ] Cross-browser compatibility
-
-## 📊 Analytics & SEO
-
-### SEO Optimizations
-- Meta tags in layout.tsx
-- Semantic HTML structure
-- Alt text for images
-- Open Graph tags
-- Structured data
-
-### Analytics Tools
-- Vercel Analytics
-- Google Analytics 4
-- Hotjar for user behavior
-
-## 🔒 Security
-
-### Implemented
-- Content Security Policy
-- Secure headers
-- Input validation
-- XSS protection
-
-## 📝 Available Scripts
-
-```bash
-npm run dev          # Start development server
-npm run build        # Build for production
-npm run start        # Start production server
-npm run lint         # Run ESLint
-npm run export       # Export static site
+```env
+NEXT_PUBLIC_SITE_URL=https://your-domain.vercel.app
 ```
 
-## 🤝 Contributing
+### Customization
+- Update personal information in component files
+- Modify colors in `tailwind.config.js`
+- Add/remove projects in `Portfolio.tsx`
+- Update skills in `Resume.tsx`
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+## 📱 Social Links
+
+- **LinkedIn**: [Rehan Ghanchi](https://www.linkedin.com/in/rehan-ghanchi-586463227/)
+- **GitHub**: [Your GitHub]
+- **Email**: ghanchirehan655@gmail.com
+
+## 🎯 Cloud Engineering Focus
+
+This portfolio highlights:
+- **Multi-Cloud Expertise**: Azure, AWS, OCI
+- **Infrastructure as Code**: Terraform, GitHub Actions
+- **Automation**: Python, PowerShell scripting
+- **DevOps**: CI/CD pipelines, Kubernetes
+- **Cloud Security**: Monitoring, compliance
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is open source and available under the [MIT License](LICENSE).
 
-## 🙏 Acknowledgments
+## 🤝 Contributing
 
-- **Framer Motion** for smooth animations
-- **Radix UI** for accessible components
-- **Tailwind CSS** for utility-first styling
-- **Lucide React** for beautiful icons
-- **Next.js** for the amazing framework
-
-## 📞 Support
-
-For support, email [your-email@example.com](mailto:your-email@example.com) or create an issue in this repository.
+Feel free to submit issues and enhancement requests!
 
 ---
 
-**Built with ❤️ by Patan Sahil Khan**
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yourusername/cartoon-portfolio) 
+**Built with ❤️ by Rehan Ghanchi** 

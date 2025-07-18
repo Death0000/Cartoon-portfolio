@@ -10,64 +10,44 @@ import { Calendar, MapPin, Award, GraduationCap, Briefcase, Heart, Code, Users, 
 export function Biography() {
   const timelineItems = [
     {
-      year: '2024',
-      title: 'Senior Frontend Developer',
-      company: 'Tech Solutions Bangalore',
-      description: 'Leading a team of 5 frontend developers, architecting scalable React applications for enterprise clients. Implemented micro-frontend architecture that improved deployment speed by 60%. Mentoring junior developers and establishing coding standards across multiple product teams.',
+      year: '2022-2025',
+      title: 'Senior Cloud Engineer',
+      company: 'Dhruthzuci Tech solutions pvt Ltd',
+      description: 'Lead infrastructure automation, multi-cloud integration, and self-service cloud management solutions. Designed and developed the MWM Portal for Azure Virtual Desktops, built multi-cloud automation with Terraform and GitHub Actions, and engineered cost-saving automation for cloud resources.',
       location: 'Bangalore, India',
       type: 'work',
-      skills: ['React', 'TypeScript', 'Micro-frontends', 'Team Leadership', 'Architecture'],
-      achievements: ['60% deployment speed improvement', 'Led team of 5 developers', 'Established coding standards']
+      skills: ['Azure', 'AWS', 'OCI', 'Terraform', 'GitHub Actions', 'Python', 'PowerShell'],
+      achievements: ['Automated AVD management', 'Multi-cloud CI/CD', 'Cost optimization']
     },
     {
-      year: '2023',
-      title: 'Frontend Team Lead',
-      company: 'Digital Innovation Lab',
-      description: 'Promoted to team lead role, managing frontend development for 3 major client projects simultaneously. Introduced automated testing practices that reduced bugs by 40%. Built reusable component library used across 15+ projects.',
-      location: 'Bangalore, India',
-      type: 'work',
-      skills: ['Vue.js', 'Testing', 'Component Library', 'Project Management', 'Agile'],
-      achievements: ['40% bug reduction', 'Component library for 15+ projects', 'Managed 3 major projects']
-    },
-    {
-      year: '2022',
-      title: 'Frontend Developer',
-      company: 'Digital Innovation Lab',
-      description: 'Developed responsive web applications and collaborated with UX teams to create exceptional user experiences. Specialized in React and Vue.js development, working on e-commerce and fintech applications with focus on performance optimization.',
-      location: 'Bangalore, India',
-      type: 'work',
-      skills: ['React', 'Vue.js', 'E-commerce', 'Fintech', 'Performance Optimization'],
-      achievements: ['Built 20+ responsive applications', 'Optimized performance by 35%', 'UX collaboration']
-    },
-    {
-      year: '2021',
-      title: 'Bachelor of Computer Science',
-      company: 'Indian Institute of Technology',
-      description: 'Graduated with honors (CGPA: 8.7/10), specializing in web technologies and software engineering principles. Final year project: "Real-time Collaborative Code Editor" built with React and WebSocket technology.',
-      location: 'Karnataka, India',
-      type: 'education',
-      skills: ['Computer Science', 'Web Technologies', 'Software Engineering', 'Data Structures'],
-      achievements: ['CGPA: 8.7/10', 'Graduated with honors', 'Real-time collaborative project']
-    },
-    {
-      year: '2020-2021',
-      title: 'Freelance Web Developer',
-      company: 'Independent',
-      description: 'Built custom websites for 15+ small businesses and startups while completing my degree. Gained expertise in full-stack development, client communication, and project management. Maintained 4.9/5 average project rating.',
+      year: '2021-2022',
+      title: 'Support Engineer',
+      company: 'Cloud Champions Ventures',
+      description: 'Provided technical support and guidance on AWS platform, designed and deployed scalable cloud infrastructure, and assisted students in practical AWS labs.',
       location: 'Remote',
       type: 'work',
-      skills: ['Full-stack', 'Client Relations', 'WordPress', 'PHP', 'Project Management'],
-      achievements: ['15+ successful projects', '4.9/5 client rating', 'Full-stack expertise']
+      skills: ['AWS', 'EC2', 'VPC', 'RDS', 'CloudFront'],
+      achievements: ['Deployed scalable AWS infra', 'Student mentoring', 'Hands-on AWS labs']
     },
     {
-      year: '2019',
-      title: 'Web Development Internship',
-      company: 'StartupTech Incubator',
-      description: 'First professional experience as a frontend developer intern. Worked on landing pages and marketing websites for 5 different startups. Learned modern development workflows, version control, and professional coding practices.',
-      location: 'Bangalore, India',
-      type: 'work',
-      skills: ['HTML/CSS', 'JavaScript', 'Git', 'Responsive Design', 'Modern Workflows'],
-      achievements: ['5 startup projects', 'Modern workflow adoption', 'Professional coding practices']
+      year: '2019-2021',
+      title: 'Bachelor of Commerce (E-Commerce)',
+      company: 'Dr. Babasaheb Ambedkar University',
+      description: 'Graduated with a focus on E-Commerce and cloud technology fundamentals.',
+      location: 'Aurangabad, India',
+      type: 'education',
+      skills: ['E-Commerce', 'Cloud Fundamentals'],
+      achievements: ['Degree completed', 'Cloud fundamentals']
+    },
+    {
+      year: '2018',
+      title: 'Higher Secondary Education',
+      company: 'Rashtramata College, Jalna',
+      description: 'Completed 12th Grade with a focus on science and technology.',
+      location: 'Jalna, India',
+      type: 'education',
+      skills: ['Science', 'Technology'],
+      achievements: ['12th Grade completed']
     }
   ]
 
@@ -75,29 +55,29 @@ export function Biography() {
     { 
       icon: Heart, 
       label: 'Interests', 
-      value: 'Photography, Anime, Gaming, Traveling',
-      description: 'Creative pursuits and exploration',
+      value: 'Cloud Automation, Scripting, Tech Blogging, Cricket',
+      description: 'Innovation and continuous learning',
       color: 'bg-red-50 border-red-200 text-red-700'
     },
     { 
       icon: Code, 
-      label: 'Coding Since', 
-      value: '2018 (6+ years)',
-      description: 'Continuous learning and growth',
+      label: 'Cloud Experience', 
+      value: '4+ years',
+      description: 'Multi-cloud hands-on expertise',
       color: 'bg-blue-50 border-blue-200 text-blue-700'
     },
     { 
       icon: Users, 
-      label: 'Team Size Managed', 
-      value: 'Up to 8 developers',
-      description: 'Leadership and mentoring experience',
+      label: 'Users Impacted', 
+      value: '1000+',
+      description: 'Enterprise-scale automation',
       color: 'bg-green-50 border-green-200 text-green-700'
     },
     { 
       icon: Award, 
-      label: 'Projects Completed', 
-      value: '50+ professional projects',
-      description: 'Diverse industry experience',
+      label: 'Cloud Projects', 
+      value: '20+',
+      description: 'Multi-cloud, automation, security',
       color: 'bg-purple-50 border-purple-200 text-purple-700'
     }
   ]
@@ -144,9 +124,7 @@ export function Biography() {
           <div className="w-24 h-1 bg-blue-600 mx-auto rounded-full"></div>
         </div>
         <p className="text-gray-600 text-lg leading-relaxed poppins-regular max-w-4xl mx-auto">
-          From a curious student learning HTML/CSS to a senior frontend developer leading teams and 
-          building enterprise applications. Here's my professional and educational journey that shaped 
-          who I am today.
+          From a passionate cloud enthusiast to a Senior Cloud Engineer automating multi-cloud infrastructure and driving efficiency at scale. Here’s my professional and educational journey in the world of cloud technology.
         </p>
       </motion.div>
 
@@ -306,7 +284,7 @@ export function Biography() {
             </blockquote>
             <div className="flex items-center justify-center gap-4">
               <Separator className="flex-1 max-w-24" />
-              <cite className="text-lg text-black poppins-bold">Patan Sahil Khan</cite>
+              <cite className="text-lg text-black poppins-bold">Rehan Ghanchi</cite>
               <Separator className="flex-1 max-w-24" />
             </div>
             <p className="text-sm text-gray-600 poppins-regular">

@@ -33,7 +33,7 @@ export function ShareButton() {
       action: () => {
         if (navigator.share) {
           navigator.share({
-            title: 'Patan Sahil Khan - Frontend Developer',
+            title: 'Rehan Ghanchi - Frontend Developer',
             text: 'Check out this amazing portfolio!',
             url: window.location.href,
           })

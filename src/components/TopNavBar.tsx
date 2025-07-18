@@ -31,16 +31,14 @@ export function TopNavBar({ activeSection = 'home', screenSize = 'desktop' }: To
     {
       icon: Linkedin,
       label: 'LinkedIn',
-      action: () => {
-        window.open('https://linkedin.com/in/patansahilkhan', '_blank')
-        setIsShareOpen(false)
-      }
+      action: () => 
+        window.open('https://www.linkedin.com/in/rehan-ghanchi-586463227/', '_blank')
     },
     {
       icon: Github,
       label: 'GitHub',
       action: () => {
-        window.open('https://github.com/patansahilkhan', '_blank')
+        window.open('https://github.com/rehanghanchi', '_blank')
         setIsShareOpen(false)
       }
     },
@@ -50,7 +48,7 @@ export function TopNavBar({ activeSection = 'home', screenSize = 'desktop' }: To
       action: () => {
         if (navigator.share) {
           navigator.share({
-            title: 'Patan Sahil Khan - Frontend Developer',
+            title: 'Rehan Ghanchi - Frontend Developer',
             text: 'Check out this amazing portfolio!',
             url: window.location.href,
           })
